@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/InfoPer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Informacion personal" />
+        <item
+            android:id="@+id/Horarios"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Horarios" />
+        <item
+            android:id="@+id/AppInfo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Informacion de la app" />
+        <item
+            android:id="@+id/Ajustes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ajustes" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
